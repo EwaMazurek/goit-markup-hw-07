@@ -348,18 +348,15 @@ p {
   cursor: pointer;
 }
 
-.nav__link,
-.contact__link {
+.nav-link {
   text-decoration: none;
   color: var(--basic-text);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav__link:hover,
-.nav__link:focus,
-.contact__link:hover,
-.contact__link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--element-focus);
   fill: var(--element-focus);
   cursor: pointer;
